@@ -1,0 +1,66 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: smart_city_app/Dockerfile
+    ports:
+      - "8501:8501"
+    environment:
+      MONGO_URI: mongodb://mongodb:27017
+      MONGO_DB_NAME: smart_city
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_USER: neo4j
+      NEO4J_PASSWORD: 12345678
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      INFLUX_URL: http://influxdb:8086
+      INFLUX_TOKEN: token
+      INFLUX_ORG: smart_city
+      INFLUX_BUCKET: Smart_City_Bucket
+    depends_on:
+      - mongodb
+      - neo4j
+      - redis
+      - influxdb
+
+  mongodb:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  neo4j:
+    image: neo4j:5
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/12345678
+    volumes:
+      - neo4j_data:/data
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+  influxdb:
+    image: influxdb:2
+    ports:
+      - "8086:8086"
+    environment:
+      DOCKER_INFLUXDB_INIT_MODE: setup
+      DOCKER_INFLUXDB_INIT_USERNAME: admin
+      DOCKER_INFLUXDB_INIT_PASSWORD: smartcity123
+      DOCKER_INFLUXDB_INIT_ORG: smart_city
+      DOCKER_INFLUXDB_INIT_BUCKET: Smart_City_Bucket
+      DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: token
+    volumes:
+      - influxdb_data:/var/lib/influxdb2
+
+volumes:
+  mongo_data:
+  neo4j_data:
+  influxdb_data:
+

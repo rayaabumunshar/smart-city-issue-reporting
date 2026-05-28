@@ -1,0 +1,41 @@
+dep_id,name,type,area
+D001,Downtown trash department,trash,Downtown
+D002,Downtown electricity department,electricity,Downtown
+D003,Downtown traffic department,traffic,Downtown
+D004,Downtown water department,water,Downtown
+D005,Downtown road_damage department,road_damage,Downtown
+D006,Old City trash department,trash,Old City
+D007,Old City electricity department,electricity,Old City
+D008,Old City traffic department,traffic,Old City
+D009,Old City water department,water,Old City
+D010,Old City road_damage department,road_damage,Old City
+D011,University trash department,trash,University
+D012,University electricity department,electricity,University
+D013,University traffic department,traffic,University
+D014,University water department,water,University
+D015,University road_damage department,road_damage,University
+D016,Industrial Zone trash department,trash,Industrial Zone
+D017,Industrial Zone electricity department,electricity,Industrial Zone
+D018,Industrial Zone traffic department,traffic,Industrial Zone
+D019,Industrial Zone water department,water,Industrial Zone
+D020,Industrial Zone road_damage department,road_damage,Industrial Zone
+D021,North District trash department,trash,North District
+D022,North District electricity department,electricity,North District
+D023,North District traffic department,traffic,North District
+D024,North District water department,water,North District
+D025,North District road_damage department,road_damage,North District
+D026,South District trash department,trash,South District
+D027,South District electricity department,electricity,South District
+D028,South District traffic department,traffic,South District
+D029,South District water department,water,South District
+D030,South District road_damage department,road_damage,South District
+D031,East Side trash department,trash,East Side
+D032,East Side electricity department,electricity,East Side
+D033,East Side traffic department,traffic,East Side
+D034,East Side water department,water,East Side
+D035,East Side road_damage department,road_damage,East Side
+D036,West Side trash department,trash,West Side
+D037,West Side electricity department,electricity,West Side
+D038,West Side traffic department,traffic,West Side
+D039,West Side water department,water,West Side
+D040,West Side road_damage department,road_damage,West Side

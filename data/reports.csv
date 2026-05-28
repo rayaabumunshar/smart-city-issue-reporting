@@ -1,0 +1,401 @@
+report_id,type,comment,area,user_id,status,report_time,response_time,department_id
+R001,road_damage,Damaged sidewalk,University,U008,resolved,2026-05-04T14:07:00,112,D015
+R002,traffic,Traffic light malfunction,East Side,U010,in_progress,2026-05-06T05:32:00,,D033
+R003,electricity,Electrical sparks near pole,Old City,U062,in_progress,2026-05-01T17:57:00,,D007
+R004,water,Flooding near building,Old City,U053,submitted,2026-05-03T00:58:00,,D009
+R005,water,Flooding near building,West Side,U009,submitted,2026-05-05T23:47:00,,D039
+R006,water,Water leakage from pipe,Industrial Zone,U087,submitted,2026-05-05T16:27:00,,D019
+R007,traffic,Traffic light malfunction,West Side,U095,in_progress,2026-05-02T06:05:00,,D038
+R008,electricity,Electrical sparks near pole,South District,U085,in_progress,2026-05-04T12:53:00,,D027
+R009,electricity,Electrical sparks near pole,North District,U028,resolved,2026-05-06T16:01:00,116,D022
+R010,water,No water supply,South District,U016,submitted,2026-05-02T18:00:00,,D029
+R011,trash,Bad smell from waste area,East Side,U115,resolved,2026-05-02T01:20:00,121,D031
+R012,water,No water supply,Old City,U079,resolved,2026-05-02T03:27:00,160,D009
+R013,electricity,Electrical sparks near pole,Downtown,U024,in_progress,2026-05-05T15:55:00,,D002
+R014,water,Flooding near building,East Side,U049,resolved,2026-05-06T10:28:00,36,D034
+R015,trash,Trash not collected,East Side,U084,in_progress,2026-05-02T10:01:00,,D031
+R016,traffic,Heavy traffic near intersection,Industrial Zone,U066,in_progress,2026-05-05T15:10:00,,D018
+R017,trash,Bad smell from waste area,Downtown,U068,in_progress,2026-05-03T02:41:00,,D001
+R018,road_damage,Large pothole on road,University,U005,in_progress,2026-05-07T16:54:00,,D015
+R019,water,Flooding near building,East Side,U102,in_progress,2026-05-05T10:42:00,,D034
+R020,trash,Garbage container overflowing,Industrial Zone,U043,in_progress,2026-05-06T05:06:00,,D016
+R021,trash,Bad smell from waste area,University,U034,in_progress,2026-05-05T05:03:00,,D011
+R022,road_damage,Road cracks becoming dangerous,East Side,U011,in_progress,2026-05-05T07:30:00,,D035
+R023,water,Water leakage from pipe,East Side,U051,in_progress,2026-05-05T22:20:00,,D034
+R024,water,Flooding near building,Industrial Zone,U014,in_progress,2026-05-02T09:41:00,,D019
+R025,electricity,Street light not working,North District,U090,submitted,2026-05-07T04:30:00,,D022
+R026,trash,Garbage container overflowing,Downtown,U104,submitted,2026-05-08T03:33:00,,D001
+R027,trash,Trash not collected,West Side,U120,resolved,2026-05-04T21:41:00,59,D036
+R028,traffic,Traffic light malfunction,West Side,U031,in_progress,2026-05-05T02:37:00,,D038
+R029,electricity,Electrical sparks near pole,Old City,U059,submitted,2026-05-06T18:10:00,,D007
+R030,road_damage,Large pothole on road,Old City,U080,resolved,2026-05-04T19:48:00,69,D010
+R031,traffic,Traffic light malfunction,North District,U089,submitted,2026-05-07T07:05:00,,D023
+R032,electricity,Street light not working,North District,U114,submitted,2026-05-05T20:26:00,,D022
+R033,water,Flooding near building,West Side,U057,submitted,2026-05-05T21:59:00,,D039
+R034,water,No water supply,East Side,U108,resolved,2026-05-04T13:11:00,73,D034
+R035,water,Flooding near building,South District,U112,in_progress,2026-05-07T14:56:00,,D029
+R036,trash,Trash not collected,North District,U061,in_progress,2026-05-03T05:35:00,,D021
+R037,traffic,Road congestion during rush hour,North District,U031,resolved,2026-05-06T04:39:00,71,D023
+R038,trash,Trash not collected,Industrial Zone,U037,in_progress,2026-05-02T14:12:00,,D016
+R039,electricity,Electrical sparks near pole,North District,U031,in_progress,2026-05-02T07:57:00,,D022
+R040,water,Flooding near building,South District,U003,in_progress,2026-05-04T10:20:00,,D029
+R041,water,No water supply,University,U070,resolved,2026-05-04T06:13:00,209,D014
+R042,trash,Garbage container overflowing,East Side,U092,in_progress,2026-05-06T20:00:00,,D031
+R043,trash,Garbage container overflowing,University,U092,resolved,2026-05-07T22:27:00,178,D011
+R044,road_damage,Large pothole on road,West Side,U013,in_progress,2026-05-05T22:57:00,,D040
+R045,water,Water leakage from pipe,West Side,U066,submitted,2026-05-03T01:22:00,,D039
+R046,water,Flooding near building,Old City,U046,in_progress,2026-05-03T04:13:00,,D009
+R047,road_damage,Damaged sidewalk,North District,U071,resolved,2026-05-04T13:39:00,56,D025
+R048,electricity,Street light not working,Downtown,U024,submitted,2026-05-06T05:56:00,,D002
+R049,trash,Bad smell from waste area,Old City,U018,in_progress,2026-05-07T08:27:00,,D006
+R050,traffic,Traffic light malfunction,Old City,U043,submitted,2026-05-02T02:22:00,,D008
+R051,electricity,Street light not working,University,U087,in_progress,2026-05-04T12:04:00,,D012
+R052,traffic,Road congestion during rush hour,Old City,U118,submitted,2026-05-06T06:23:00,,D008
+R053,road_damage,Damaged sidewalk,Industrial Zone,U088,in_progress,2026-05-07T17:49:00,,D020
+R054,road_damage,Road cracks becoming dangerous,North District,U005,resolved,2026-05-01T13:17:00,25,D025
+R055,electricity,Street light not working,University,U078,in_progress,2026-05-05T19:59:00,,D012
+R056,trash,Bad smell from waste area,West Side,U001,resolved,2026-05-05T08:47:00,198,D036
+R057,electricity,Electrical sparks near pole,East Side,U041,in_progress,2026-05-04T01:48:00,,D032
+R058,traffic,Traffic light malfunction,University,U036,in_progress,2026-05-05T10:19:00,,D013
+R059,electricity,Street light not working,Downtown,U083,resolved,2026-05-04T07:08:00,187,D002
+R060,road_damage,Damaged sidewalk,West Side,U077,submitted,2026-05-05T23:25:00,,D040
+R061,road_damage,Road cracks becoming dangerous,North District,U063,submitted,2026-05-07T09:47:00,,D025
+R062,water,No water supply,Downtown,U024,submitted,2026-05-02T21:41:00,,D004
+R063,traffic,Heavy traffic near intersection,East Side,U099,resolved,2026-05-06T05:50:00,162,D033
+R064,traffic,Heavy traffic near intersection,West Side,U033,resolved,2026-05-06T04:00:00,197,D038
+R065,trash,Bad smell from waste area,Downtown,U098,in_progress,2026-05-07T05:00:00,,D001
+R066,electricity,Electrical sparks near pole,East Side,U039,in_progress,2026-05-02T15:39:00,,D032
+R067,traffic,Road congestion during rush hour,East Side,U039,submitted,2026-05-05T18:24:00,,D033
+R068,road_damage,Road cracks becoming dangerous,Old City,U018,resolved,2026-05-06T13:15:00,180,D010
+R069,electricity,Electrical sparks near pole,University,U018,in_progress,2026-05-02T06:40:00,,D012
+R070,traffic,Traffic light malfunction,Old City,U090,submitted,2026-05-03T12:03:00,,D008
+R071,electricity,Power outage in neighborhood,Old City,U041,submitted,2026-05-07T17:54:00,,D007
+R072,electricity,Street light not working,East Side,U016,resolved,2026-05-07T12:05:00,187,D032
+R073,trash,Trash not collected,North District,U022,in_progress,2026-05-06T12:16:00,,D021
+R074,road_damage,Road cracks becoming dangerous,Industrial Zone,U021,resolved,2026-05-04T22:29:00,109,D020
+R075,traffic,Traffic light malfunction,Downtown,U108,resolved,2026-05-07T11:57:00,104,D003
+R076,trash,Trash not collected,West Side,U063,resolved,2026-05-04T05:05:00,143,D036
+R077,traffic,Traffic light malfunction,East Side,U066,in_progress,2026-05-05T11:48:00,,D033
+R078,trash,Garbage container overflowing,East Side,U116,submitted,2026-05-01T23:57:00,,D031
+R079,traffic,Road congestion during rush hour,West Side,U022,submitted,2026-05-02T06:37:00,,D038
+R080,road_damage,Large pothole on road,East Side,U050,in_progress,2026-05-04T03:44:00,,D035
+R081,electricity,Power outage in neighborhood,South District,U036,resolved,2026-05-04T19:19:00,180,D027
+R082,electricity,Power outage in neighborhood,Industrial Zone,U053,submitted,2026-05-06T09:14:00,,D017
+R083,road_damage,Large pothole on road,West Side,U022,in_progress,2026-05-07T23:00:00,,D040
+R084,electricity,Power outage in neighborhood,Industrial Zone,U029,resolved,2026-05-07T01:16:00,167,D017
+R085,electricity,Street light not working,Downtown,U036,resolved,2026-05-01T15:48:00,80,D002
+R086,traffic,Road congestion during rush hour,Industrial Zone,U101,in_progress,2026-05-03T04:31:00,,D018
+R087,road_damage,Damaged sidewalk,University,U034,resolved,2026-05-06T12:57:00,196,D015
+R088,trash,Trash not collected,East Side,U034,submitted,2026-05-02T22:24:00,,D031
+R089,trash,Bad smell from waste area,North District,U119,submitted,2026-05-01T19:48:00,,D021
+R090,water,Water leakage from pipe,West Side,U090,submitted,2026-05-07T14:50:00,,D039
+R091,trash,Bad smell from waste area,East Side,U097,resolved,2026-05-01T10:30:00,127,D031
+R092,water,Water leakage from pipe,Old City,U105,submitted,2026-05-05T12:05:00,,D009
+R093,trash,Trash not collected,West Side,U108,in_progress,2026-05-07T10:16:00,,D036
+R094,electricity,Electrical sparks near pole,North District,U048,submitted,2026-05-05T21:05:00,,D022
+R095,trash,Garbage container overflowing,University,U044,resolved,2026-05-03T09:40:00,72,D011
+R096,road_damage,Damaged sidewalk,West Side,U020,submitted,2026-05-03T19:28:00,,D040
+R097,water,Water leakage from pipe,Industrial Zone,U029,in_progress,2026-05-06T16:18:00,,D019
+R098,traffic,Road congestion during rush hour,East Side,U057,submitted,2026-05-04T08:19:00,,D033
+R099,trash,Garbage container overflowing,East Side,U077,in_progress,2026-05-06T02:11:00,,D031
+R100,traffic,Heavy traffic near intersection,Industrial Zone,U043,in_progress,2026-05-07T02:00:00,,D018
+R101,electricity,Power outage in neighborhood,Old City,U071,submitted,2026-05-06T14:16:00,,D007
+R102,traffic,Road congestion during rush hour,South District,U086,submitted,2026-05-08T00:29:00,,D028
+R103,trash,Bad smell from waste area,South District,U069,submitted,2026-05-07T10:41:00,,D026
+R104,road_damage,Road cracks becoming dangerous,West Side,U005,in_progress,2026-05-02T03:10:00,,D040
+R105,trash,Trash not collected,Industrial Zone,U032,submitted,2026-05-02T11:20:00,,D016
+R106,trash,Bad smell from waste area,West Side,U051,submitted,2026-05-07T07:12:00,,D036
+R107,traffic,Heavy traffic near intersection,Downtown,U055,submitted,2026-05-01T13:49:00,,D003
+R108,trash,Garbage container overflowing,Downtown,U106,resolved,2026-05-03T09:19:00,211,D001
+R109,trash,Trash not collected,Downtown,U002,resolved,2026-05-04T22:23:00,189,D001
+R110,water,Flooding near building,Downtown,U099,submitted,2026-05-05T10:58:00,,D004
+R111,road_damage,Damaged sidewalk,East Side,U030,in_progress,2026-05-03T08:16:00,,D035
+R112,road_damage,Large pothole on road,Old City,U112,in_progress,2026-05-03T18:17:00,,D010
+R113,traffic,Road congestion during rush hour,Industrial Zone,U098,submitted,2026-05-05T15:18:00,,D018
+R114,electricity,Electrical sparks near pole,West Side,U049,in_progress,2026-05-08T01:22:00,,D037
+R115,water,Water leakage from pipe,South District,U099,submitted,2026-05-05T05:36:00,,D029
+R116,trash,Garbage container overflowing,West Side,U102,in_progress,2026-05-03T10:50:00,,D036
+R117,water,Water leakage from pipe,South District,U023,in_progress,2026-05-04T01:42:00,,D029
+R118,trash,Bad smell from waste area,West Side,U106,in_progress,2026-05-08T05:35:00,,D036
+R119,trash,Trash not collected,Industrial Zone,U030,resolved,2026-05-01T12:24:00,157,D016
+R120,traffic,Traffic light malfunction,East Side,U015,in_progress,2026-05-04T12:56:00,,D033
+R121,road_damage,Road cracks becoming dangerous,West Side,U092,submitted,2026-05-05T16:13:00,,D040
+R122,electricity,Street light not working,University,U107,submitted,2026-05-04T15:46:00,,D012
+R123,trash,Garbage container overflowing,South District,U001,submitted,2026-05-05T05:55:00,,D026
+R124,road_damage,Damaged sidewalk,University,U028,in_progress,2026-05-02T17:12:00,,D015
+R125,electricity,Street light not working,Old City,U029,in_progress,2026-05-02T21:25:00,,D007
+R126,road_damage,Damaged sidewalk,South District,U112,submitted,2026-05-06T03:33:00,,D030
+R127,water,No water supply,Old City,U102,in_progress,2026-05-03T17:10:00,,D009
+R128,water,Water leakage from pipe,South District,U062,in_progress,2026-05-06T15:59:00,,D029
+R129,water,Flooding near building,Old City,U097,submitted,2026-05-07T02:53:00,,D009
+R130,road_damage,Road cracks becoming dangerous,South District,U054,submitted,2026-05-01T23:15:00,,D030
+R131,traffic,Traffic light malfunction,Downtown,U054,resolved,2026-05-02T05:54:00,226,D003
+R132,electricity,Electrical sparks near pole,Downtown,U012,in_progress,2026-05-04T02:21:00,,D002
+R133,traffic,Road congestion during rush hour,West Side,U002,submitted,2026-05-04T18:05:00,,D038
+R134,road_damage,Large pothole on road,East Side,U096,in_progress,2026-05-05T11:36:00,,D035
+R135,road_damage,Road cracks becoming dangerous,University,U079,in_progress,2026-05-03T11:26:00,,D015
+R136,traffic,Heavy traffic near intersection,University,U105,in_progress,2026-05-06T18:11:00,,D013
+R137,road_damage,Road cracks becoming dangerous,North District,U091,resolved,2026-05-03T16:47:00,203,D025
+R138,water,Flooding near building,University,U046,in_progress,2026-05-07T00:07:00,,D014
+R139,electricity,Power outage in neighborhood,South District,U048,resolved,2026-05-03T12:55:00,206,D027
+R140,road_damage,Road cracks becoming dangerous,Industrial Zone,U076,in_progress,2026-05-01T15:45:00,,D020
+R141,water,No water supply,South District,U015,resolved,2026-05-06T20:43:00,240,D029
+R142,traffic,Heavy traffic near intersection,North District,U040,in_progress,2026-05-03T07:52:00,,D023
+R143,road_damage,Large pothole on road,West Side,U068,resolved,2026-05-05T22:19:00,114,D040
+R144,water,Water leakage from pipe,North District,U046,submitted,2026-05-06T20:21:00,,D024
+R145,road_damage,Large pothole on road,West Side,U090,submitted,2026-05-06T22:29:00,,D040
+R146,road_damage,Damaged sidewalk,East Side,U002,in_progress,2026-05-03T17:23:00,,D035
+R147,water,Flooding near building,Old City,U106,in_progress,2026-05-03T12:07:00,,D009
+R148,traffic,Traffic light malfunction,Industrial Zone,U019,submitted,2026-05-01T15:38:00,,D018
+R149,electricity,Power outage in neighborhood,West Side,U003,resolved,2026-05-04T07:43:00,215,D037
+R150,electricity,Street light not working,West Side,U003,in_progress,2026-05-03T13:22:00,,D037
+R151,traffic,Road congestion during rush hour,West Side,U071,in_progress,2026-05-04T08:43:00,,D038
+R152,trash,Trash not collected,University,U078,submitted,2026-05-07T14:40:00,,D011
+R153,traffic,Road congestion during rush hour,Downtown,U012,submitted,2026-05-04T22:26:00,,D003
+R154,traffic,Road congestion during rush hour,South District,U034,submitted,2026-05-02T00:58:00,,D028
+R155,traffic,Traffic light malfunction,University,U012,submitted,2026-05-07T17:59:00,,D013
+R156,trash,Trash not collected,Industrial Zone,U054,submitted,2026-05-02T11:34:00,,D016
+R157,electricity,Street light not working,North District,U090,submitted,2026-05-04T07:04:00,,D022
+R158,traffic,Traffic light malfunction,Industrial Zone,U031,submitted,2026-05-06T14:04:00,,D018
+R159,traffic,Heavy traffic near intersection,University,U105,resolved,2026-05-05T12:16:00,188,D013
+R160,road_damage,Damaged sidewalk,University,U081,in_progress,2026-05-02T01:10:00,,D015
+R161,traffic,Traffic light malfunction,University,U048,submitted,2026-05-01T16:34:00,,D013
+R162,trash,Trash not collected,Downtown,U026,submitted,2026-05-07T13:14:00,,D001
+R163,electricity,Street light not working,Old City,U048,in_progress,2026-05-06T21:12:00,,D007
+R164,trash,Trash not collected,Industrial Zone,U092,submitted,2026-05-07T15:11:00,,D016
+R165,road_damage,Large pothole on road,Downtown,U117,submitted,2026-05-05T13:37:00,,D005
+R166,trash,Bad smell from waste area,Industrial Zone,U052,in_progress,2026-05-03T11:59:00,,D016
+R167,electricity,Power outage in neighborhood,East Side,U048,resolved,2026-05-04T21:04:00,59,D032
+R168,electricity,Street light not working,North District,U064,submitted,2026-05-07T17:46:00,,D022
+R169,traffic,Heavy traffic near intersection,Industrial Zone,U057,submitted,2026-05-01T16:39:00,,D018
+R170,water,Water leakage from pipe,Downtown,U059,resolved,2026-05-05T03:32:00,104,D004
+R171,water,Water leakage from pipe,Industrial Zone,U004,in_progress,2026-05-02T18:04:00,,D019
+R172,road_damage,Road cracks becoming dangerous,Old City,U014,in_progress,2026-05-02T23:47:00,,D010
+R173,electricity,Street light not working,University,U086,resolved,2026-05-07T12:18:00,94,D012
+R174,traffic,Heavy traffic near intersection,University,U018,resolved,2026-05-05T14:38:00,124,D013
+R175,road_damage,Road cracks becoming dangerous,West Side,U044,in_progress,2026-05-04T18:09:00,,D040
+R176,traffic,Traffic light malfunction,East Side,U066,submitted,2026-05-07T06:19:00,,D033
+R177,water,Water leakage from pipe,West Side,U093,resolved,2026-05-01T20:15:00,91,D039
+R178,electricity,Power outage in neighborhood,Downtown,U062,submitted,2026-05-04T00:46:00,,D002
+R179,electricity,Electrical sparks near pole,East Side,U029,submitted,2026-05-04T09:33:00,,D032
+R180,trash,Trash not collected,East Side,U005,submitted,2026-05-03T22:49:00,,D031
+R181,traffic,Road congestion during rush hour,North District,U063,submitted,2026-05-06T21:33:00,,D023
+R182,traffic,Road congestion during rush hour,South District,U058,submitted,2026-05-05T04:23:00,,D028
+R183,water,Water leakage from pipe,Old City,U048,in_progress,2026-05-04T01:56:00,,D009
+R184,water,Water leakage from pipe,West Side,U066,in_progress,2026-05-05T15:45:00,,D039
+R185,electricity,Power outage in neighborhood,North District,U046,in_progress,2026-05-02T01:16:00,,D022
+R186,traffic,Heavy traffic near intersection,Industrial Zone,U111,in_progress,2026-05-07T03:40:00,,D018
+R187,electricity,Street light not working,Old City,U104,in_progress,2026-05-07T04:27:00,,D007
+R188,trash,Garbage container overflowing,West Side,U069,resolved,2026-05-02T21:24:00,153,D036
+R189,water,Flooding near building,Industrial Zone,U048,submitted,2026-05-05T00:48:00,,D019
+R190,water,Flooding near building,Old City,U100,submitted,2026-05-04T06:39:00,,D009
+R191,electricity,Electrical sparks near pole,Old City,U041,submitted,2026-05-04T00:49:00,,D007
+R192,traffic,Traffic light malfunction,East Side,U006,resolved,2026-05-06T09:06:00,80,D033
+R193,water,Water leakage from pipe,South District,U045,in_progress,2026-05-05T04:24:00,,D029
+R194,road_damage,Damaged sidewalk,Industrial Zone,U015,in_progress,2026-05-05T03:51:00,,D020
+R195,electricity,Street light not working,West Side,U078,submitted,2026-05-04T07:21:00,,D037
+R196,electricity,Street light not working,South District,U055,resolved,2026-05-06T03:51:00,217,D027
+R197,road_damage,Road cracks becoming dangerous,Old City,U040,resolved,2026-05-04T21:15:00,185,D010
+R198,road_damage,Large pothole on road,Industrial Zone,U030,submitted,2026-05-08T00:31:00,,D020
+R199,trash,Trash not collected,East Side,U082,in_progress,2026-05-07T20:39:00,,D031
+R200,trash,Garbage container overflowing,East Side,U003,in_progress,2026-05-06T14:31:00,,D031
+R201,road_damage,Road cracks becoming dangerous,East Side,U053,in_progress,2026-05-03T00:17:00,,D035
+R202,trash,Garbage container overflowing,East Side,U097,in_progress,2026-05-02T19:29:00,,D031
+R203,water,Water leakage from pipe,West Side,U115,resolved,2026-05-02T07:48:00,77,D039
+R204,water,Flooding near building,Downtown,U080,in_progress,2026-05-06T18:00:00,,D004
+R205,traffic,Road congestion during rush hour,University,U107,in_progress,2026-05-04T20:14:00,,D013
+R206,trash,Garbage container overflowing,South District,U025,submitted,2026-05-05T13:29:00,,D026
+R207,traffic,Heavy traffic near intersection,Old City,U013,resolved,2026-05-08T01:12:00,104,D008
+R208,traffic,Road congestion during rush hour,Industrial Zone,U001,submitted,2026-05-06T20:52:00,,D018
+R209,trash,Garbage container overflowing,Old City,U070,in_progress,2026-05-01T21:16:00,,D006
+R210,water,Flooding near building,West Side,U061,resolved,2026-05-05T13:39:00,219,D039
+R211,water,No water supply,North District,U084,submitted,2026-05-05T04:45:00,,D024
+R212,trash,Bad smell from waste area,Downtown,U037,resolved,2026-05-07T08:22:00,233,D001
+R213,trash,Bad smell from waste area,Industrial Zone,U099,submitted,2026-05-05T12:55:00,,D016
+R214,traffic,Heavy traffic near intersection,West Side,U072,submitted,2026-05-05T08:24:00,,D038
+R215,road_damage,Road cracks becoming dangerous,Downtown,U045,in_progress,2026-05-06T19:05:00,,D005
+R216,electricity,Electrical sparks near pole,South District,U024,submitted,2026-05-02T18:41:00,,D027
+R217,water,No water supply,East Side,U002,in_progress,2026-05-08T00:18:00,,D034
+R218,trash,Trash not collected,East Side,U004,resolved,2026-05-03T21:33:00,82,D031
+R219,water,Flooding near building,Industrial Zone,U046,resolved,2026-05-07T18:41:00,212,D019
+R220,water,Flooding near building,Industrial Zone,U024,resolved,2026-05-05T14:22:00,160,D019
+R221,trash,Garbage container overflowing,South District,U004,submitted,2026-05-07T15:35:00,,D026
+R222,electricity,Electrical sparks near pole,Industrial Zone,U094,submitted,2026-05-06T10:00:00,,D017
+R223,traffic,Road congestion during rush hour,Industrial Zone,U043,in_progress,2026-05-04T04:10:00,,D018
+R224,electricity,Power outage in neighborhood,Industrial Zone,U020,submitted,2026-05-06T23:51:00,,D017
+R225,electricity,Electrical sparks near pole,South District,U033,resolved,2026-05-06T21:40:00,81,D027
+R226,electricity,Street light not working,East Side,U032,resolved,2026-05-05T21:33:00,194,D032
+R227,traffic,Road congestion during rush hour,North District,U008,in_progress,2026-05-05T05:07:00,,D023
+R228,electricity,Power outage in neighborhood,East Side,U056,submitted,2026-05-05T19:23:00,,D032
+R229,road_damage,Large pothole on road,Downtown,U082,resolved,2026-05-04T09:55:00,219,D005
+R230,road_damage,Large pothole on road,Industrial Zone,U073,submitted,2026-05-03T04:12:00,,D020
+R231,electricity,Street light not working,South District,U034,submitted,2026-05-06T00:31:00,,D027
+R232,road_damage,Large pothole on road,South District,U083,submitted,2026-05-04T22:15:00,,D030
+R233,electricity,Electrical sparks near pole,South District,U052,resolved,2026-05-06T02:57:00,178,D027
+R234,road_damage,Large pothole on road,Downtown,U006,resolved,2026-05-08T00:36:00,83,D005
+R235,traffic,Road congestion during rush hour,North District,U054,submitted,2026-05-03T15:32:00,,D023
+R236,traffic,Traffic light malfunction,North District,U104,submitted,2026-05-03T14:20:00,,D023
+R237,water,Flooding near building,Old City,U065,in_progress,2026-05-07T23:57:00,,D009
+R238,trash,Garbage container overflowing,West Side,U099,submitted,2026-05-06T09:17:00,,D036
+R239,traffic,Traffic light malfunction,University,U007,in_progress,2026-05-07T11:44:00,,D013
+R240,traffic,Traffic light malfunction,Old City,U100,resolved,2026-05-06T04:14:00,203,D008
+R241,trash,Trash not collected,University,U119,resolved,2026-05-04T11:41:00,91,D011
+R242,road_damage,Large pothole on road,Industrial Zone,U091,resolved,2026-05-02T11:54:00,98,D020
+R243,trash,Bad smell from waste area,Industrial Zone,U090,submitted,2026-05-06T16:33:00,,D016
+R244,road_damage,Road cracks becoming dangerous,Downtown,U056,in_progress,2026-05-06T22:52:00,,D005
+R245,traffic,Traffic light malfunction,Industrial Zone,U065,in_progress,2026-05-03T19:36:00,,D018
+R246,road_damage,Large pothole on road,West Side,U092,in_progress,2026-05-02T03:24:00,,D040
+R247,road_damage,Damaged sidewalk,South District,U053,resolved,2026-05-08T02:51:00,147,D030
+R248,trash,Trash not collected,South District,U026,resolved,2026-05-06T04:48:00,81,D026
+R249,traffic,Traffic light malfunction,South District,U072,resolved,2026-05-05T03:33:00,47,D028
+R250,road_damage,Road cracks becoming dangerous,West Side,U099,in_progress,2026-05-03T07:28:00,,D040
+R251,trash,Trash not collected,North District,U091,resolved,2026-05-07T08:28:00,226,D021
+R252,water,Water leakage from pipe,Old City,U015,in_progress,2026-05-02T08:03:00,,D009
+R253,traffic,Traffic light malfunction,Industrial Zone,U098,resolved,2026-05-06T06:59:00,230,D018
+R254,trash,Garbage container overflowing,West Side,U108,submitted,2026-05-04T21:51:00,,D036
+R255,traffic,Road congestion during rush hour,East Side,U020,in_progress,2026-05-07T07:02:00,,D033
+R256,traffic,Traffic light malfunction,West Side,U052,in_progress,2026-05-07T06:34:00,,D038
+R257,trash,Trash not collected,North District,U102,submitted,2026-05-01T15:54:00,,D021
+R258,electricity,Power outage in neighborhood,South District,U049,submitted,2026-05-07T03:48:00,,D027
+R259,traffic,Heavy traffic near intersection,South District,U043,in_progress,2026-05-01T12:15:00,,D028
+R260,traffic,Traffic light malfunction,Downtown,U021,submitted,2026-05-01T21:07:00,,D003
+R261,trash,Garbage container overflowing,University,U055,in_progress,2026-05-07T09:23:00,,D011
+R262,electricity,Electrical sparks near pole,North District,U029,in_progress,2026-05-06T13:43:00,,D022
+R263,water,Water leakage from pipe,Old City,U095,submitted,2026-05-04T21:59:00,,D009
+R264,road_damage,Road cracks becoming dangerous,West Side,U100,submitted,2026-05-04T06:26:00,,D040
+R265,electricity,Street light not working,University,U099,in_progress,2026-05-03T05:41:00,,D012
+R266,water,Water leakage from pipe,University,U083,in_progress,2026-05-05T21:50:00,,D014
+R267,water,Flooding near building,University,U100,in_progress,2026-05-03T09:18:00,,D014
+R268,electricity,Power outage in neighborhood,East Side,U099,in_progress,2026-05-08T03:39:00,,D032
+R269,electricity,Electrical sparks near pole,East Side,U089,in_progress,2026-05-06T18:00:00,,D032
+R270,electricity,Electrical sparks near pole,North District,U064,in_progress,2026-05-04T05:43:00,,D022
+R271,electricity,Electrical sparks near pole,Industrial Zone,U042,in_progress,2026-05-02T04:30:00,,D017
+R272,water,Water leakage from pipe,University,U101,submitted,2026-05-02T02:57:00,,D014
+R273,water,No water supply,Downtown,U087,submitted,2026-05-02T21:23:00,,D004
+R274,road_damage,Large pothole on road,North District,U077,submitted,2026-05-04T16:37:00,,D025
+R275,electricity,Electrical sparks near pole,North District,U112,in_progress,2026-05-05T05:58:00,,D022
+R276,traffic,Traffic light malfunction,University,U057,resolved,2026-05-08T01:38:00,143,D013
+R277,trash,Bad smell from waste area,Industrial Zone,U084,in_progress,2026-05-07T01:59:00,,D016
+R278,water,Water leakage from pipe,Industrial Zone,U039,resolved,2026-05-06T06:57:00,88,D019
+R279,road_damage,Damaged sidewalk,West Side,U060,submitted,2026-05-04T21:12:00,,D040
+R280,road_damage,Damaged sidewalk,University,U008,resolved,2026-05-07T19:19:00,109,D015
+R281,traffic,Heavy traffic near intersection,Old City,U038,submitted,2026-05-07T12:08:00,,D008
+R282,road_damage,Road cracks becoming dangerous,University,U069,in_progress,2026-05-02T02:16:00,,D015
+R283,water,Water leakage from pipe,South District,U069,submitted,2026-05-01T22:47:00,,D029
+R284,road_damage,Large pothole on road,East Side,U022,resolved,2026-05-04T16:01:00,202,D035
+R285,water,Water leakage from pipe,Old City,U042,in_progress,2026-05-05T04:22:00,,D009
+R286,trash,Garbage container overflowing,South District,U028,resolved,2026-05-03T02:46:00,187,D026
+R287,electricity,Street light not working,Downtown,U065,submitted,2026-05-01T16:54:00,,D002
+R288,water,Water leakage from pipe,East Side,U108,resolved,2026-05-06T09:38:00,238,D034
+R289,electricity,Street light not working,University,U074,submitted,2026-05-05T05:49:00,,D012
+R290,traffic,Road congestion during rush hour,University,U032,in_progress,2026-05-04T18:44:00,,D013
+R291,traffic,Heavy traffic near intersection,South District,U051,submitted,2026-05-04T20:52:00,,D028
+R292,trash,Trash not collected,Downtown,U021,submitted,2026-05-07T17:43:00,,D001
+R293,road_damage,Large pothole on road,West Side,U002,in_progress,2026-05-03T06:18:00,,D040
+R294,electricity,Power outage in neighborhood,Downtown,U079,in_progress,2026-05-03T07:11:00,,D002
+R295,trash,Trash not collected,East Side,U025,in_progress,2026-05-01T09:43:00,,D031
+R296,road_damage,Large pothole on road,North District,U034,resolved,2026-05-02T13:12:00,37,D025
+R297,trash,Trash not collected,South District,U082,in_progress,2026-05-01T08:35:00,,D026
+R298,trash,Trash not collected,Old City,U074,submitted,2026-05-04T12:04:00,,D006
+R299,electricity,Street light not working,North District,U092,in_progress,2026-05-04T18:04:00,,D022
+R300,electricity,Power outage in neighborhood,South District,U020,in_progress,2026-05-07T14:50:00,,D027
+R301,road_damage,Large pothole on road,Downtown,U120,resolved,2026-05-05T16:27:00,27,D005
+R302,road_damage,Large pothole on road,University,U007,submitted,2026-05-04T10:56:00,,D015
+R303,trash,Trash not collected,South District,U026,in_progress,2026-05-03T13:13:00,,D026
+R304,electricity,Power outage in neighborhood,Downtown,U001,resolved,2026-05-07T21:13:00,82,D002
+R305,traffic,Heavy traffic near intersection,East Side,U089,in_progress,2026-05-02T11:29:00,,D033
+R306,traffic,Traffic light malfunction,West Side,U064,in_progress,2026-05-04T10:44:00,,D038
+R307,water,Water leakage from pipe,North District,U041,submitted,2026-05-01T09:28:00,,D024
+R308,water,Water leakage from pipe,Old City,U075,in_progress,2026-05-01T16:34:00,,D009
+R309,electricity,Electrical sparks near pole,North District,U098,resolved,2026-05-01T08:04:00,101,D022
+R310,road_damage,Damaged sidewalk,East Side,U065,submitted,2026-05-05T04:33:00,,D035
+R311,water,No water supply,Industrial Zone,U006,submitted,2026-05-06T03:26:00,,D019
+R312,traffic,Heavy traffic near intersection,Industrial Zone,U091,submitted,2026-05-07T12:21:00,,D018
+R313,electricity,Power outage in neighborhood,University,U028,resolved,2026-05-02T06:25:00,36,D012
+R314,water,Water leakage from pipe,Downtown,U078,in_progress,2026-05-06T06:18:00,,D004
+R315,water,No water supply,East Side,U048,resolved,2026-05-07T08:06:00,164,D034
+R316,trash,Garbage container overflowing,Old City,U098,submitted,2026-05-02T00:57:00,,D006
+R317,trash,Garbage container overflowing,North District,U035,in_progress,2026-05-04T21:29:00,,D021
+R318,traffic,Traffic light malfunction,West Side,U007,in_progress,2026-05-02T14:08:00,,D038
+R319,electricity,Street light not working,University,U017,resolved,2026-05-04T01:07:00,166,D012
+R320,water,No water supply,University,U095,resolved,2026-05-04T18:05:00,14,D014
+R321,water,No water supply,West Side,U097,in_progress,2026-05-07T11:18:00,,D039
+R322,road_damage,Large pothole on road,University,U080,resolved,2026-05-03T19:43:00,188,D015
+R323,trash,Garbage container overflowing,Industrial Zone,U048,resolved,2026-05-04T05:02:00,131,D016
+R324,electricity,Street light not working,Old City,U019,in_progress,2026-05-03T00:53:00,,D007
+R325,road_damage,Road cracks becoming dangerous,North District,U038,submitted,2026-05-08T00:33:00,,D025
+R326,trash,Trash not collected,University,U043,submitted,2026-05-07T14:37:00,,D011
+R327,electricity,Electrical sparks near pole,Downtown,U028,submitted,2026-05-01T13:35:00,,D002
+R328,road_damage,Damaged sidewalk,Old City,U044,submitted,2026-05-07T13:31:00,,D010
+R329,electricity,Electrical sparks near pole,South District,U078,in_progress,2026-05-04T10:48:00,,D027
+R330,road_damage,Large pothole on road,Downtown,U021,in_progress,2026-05-02T07:08:00,,D005
+R331,road_damage,Large pothole on road,North District,U066,in_progress,2026-05-06T01:36:00,,D025
+R332,traffic,Heavy traffic near intersection,Old City,U042,in_progress,2026-05-06T19:05:00,,D008
+R333,electricity,Electrical sparks near pole,South District,U073,in_progress,2026-05-04T22:20:00,,D027
+R334,road_damage,Large pothole on road,Downtown,U042,submitted,2026-05-05T19:07:00,,D005
+R335,electricity,Power outage in neighborhood,East Side,U006,submitted,2026-05-05T11:31:00,,D032
+R336,road_damage,Road cracks becoming dangerous,Old City,U027,resolved,2026-05-07T17:41:00,171,D010
+R337,road_damage,Large pothole on road,West Side,U105,resolved,2026-05-05T18:19:00,65,D040
+R338,water,Flooding near building,Old City,U071,in_progress,2026-05-04T10:56:00,,D009
+R339,water,Flooding near building,South District,U060,in_progress,2026-05-05T04:03:00,,D029
+R340,trash,Garbage container overflowing,East Side,U060,submitted,2026-05-01T14:27:00,,D031
+R341,water,Flooding near building,West Side,U010,in_progress,2026-05-03T16:12:00,,D039
+R342,road_damage,Large pothole on road,North District,U074,submitted,2026-05-02T09:52:00,,D025
+R343,traffic,Road congestion during rush hour,East Side,U057,resolved,2026-05-05T03:13:00,239,D033
+R344,water,No water supply,East Side,U037,resolved,2026-05-07T20:13:00,117,D034
+R345,road_damage,Road cracks becoming dangerous,Old City,U091,in_progress,2026-05-08T02:59:00,,D010
+R346,electricity,Power outage in neighborhood,North District,U010,resolved,2026-05-07T02:12:00,98,D022
+R347,traffic,Traffic light malfunction,South District,U079,submitted,2026-05-07T15:38:00,,D028
+R348,trash,Bad smell from waste area,East Side,U112,resolved,2026-05-03T23:52:00,52,D031
+R349,water,No water supply,East Side,U029,submitted,2026-05-02T12:24:00,,D034
+R350,water,Water leakage from pipe,East Side,U094,resolved,2026-05-07T00:38:00,220,D034
+R351,trash,Bad smell from waste area,Old City,U030,in_progress,2026-05-02T09:11:00,,D006
+R352,water,No water supply,South District,U046,submitted,2026-05-03T21:36:00,,D029
+R353,trash,Trash not collected,Old City,U023,in_progress,2026-05-01T19:42:00,,D006
+R354,traffic,Traffic light malfunction,University,U013,submitted,2026-05-04T11:52:00,,D013
+R355,traffic,Traffic light malfunction,West Side,U018,in_progress,2026-05-01T17:14:00,,D038
+R356,traffic,Traffic light malfunction,North District,U105,submitted,2026-05-06T09:47:00,,D023
+R357,traffic,Traffic light malfunction,Old City,U074,resolved,2026-05-07T19:25:00,23,D008
+R358,electricity,Street light not working,North District,U083,resolved,2026-05-02T14:06:00,134,D022
+R359,trash,Bad smell from waste area,Industrial Zone,U106,submitted,2026-05-01T22:44:00,,D016
+R360,traffic,Heavy traffic near intersection,North District,U043,in_progress,2026-05-02T06:48:00,,D023
+R361,road_damage,Large pothole on road,West Side,U070,in_progress,2026-05-06T21:21:00,,D040
+R362,trash,Bad smell from waste area,Downtown,U078,submitted,2026-05-04T21:16:00,,D001
+R363,traffic,Traffic light malfunction,West Side,U066,resolved,2026-05-05T23:22:00,15,D038
+R364,trash,Bad smell from waste area,West Side,U004,in_progress,2026-05-03T08:59:00,,D036
+R365,trash,Trash not collected,South District,U056,in_progress,2026-05-08T00:14:00,,D026
+R366,water,Water leakage from pipe,South District,U072,in_progress,2026-05-01T09:36:00,,D029
+R367,water,No water supply,Industrial Zone,U032,resolved,2026-05-05T11:47:00,61,D019
+R368,traffic,Road congestion during rush hour,University,U089,in_progress,2026-05-07T17:02:00,,D013
+R369,road_damage,Large pothole on road,East Side,U063,submitted,2026-05-01T17:43:00,,D035
+R370,traffic,Traffic light malfunction,Industrial Zone,U051,submitted,2026-05-03T07:59:00,,D018
+R371,traffic,Road congestion during rush hour,Old City,U077,resolved,2026-05-07T10:27:00,27,D008
+R372,trash,Trash not collected,Industrial Zone,U116,resolved,2026-05-02T05:57:00,158,D016
+R373,traffic,Road congestion during rush hour,North District,U052,submitted,2026-05-06T01:41:00,,D023
+R374,water,Flooding near building,West Side,U016,in_progress,2026-05-02T09:08:00,,D039
+R375,electricity,Power outage in neighborhood,North District,U097,in_progress,2026-05-05T11:27:00,,D022
+R376,traffic,Road congestion during rush hour,East Side,U083,resolved,2026-05-06T00:39:00,37,D033
+R377,traffic,Road congestion during rush hour,Downtown,U002,in_progress,2026-05-02T06:04:00,,D003
+R378,trash,Bad smell from waste area,Old City,U042,in_progress,2026-05-05T08:54:00,,D006
+R379,road_damage,Large pothole on road,Old City,U004,resolved,2026-05-04T13:23:00,200,D010
+R380,water,No water supply,East Side,U008,submitted,2026-05-03T14:45:00,,D034
+R381,traffic,Heavy traffic near intersection,University,U061,resolved,2026-05-02T17:19:00,210,D013
+R382,road_damage,Damaged sidewalk,Downtown,U060,resolved,2026-05-07T15:55:00,67,D005
+R383,electricity,Electrical sparks near pole,East Side,U105,in_progress,2026-05-02T12:12:00,,D032
+R384,road_damage,Large pothole on road,North District,U068,in_progress,2026-05-04T17:21:00,,D025
+R385,trash,Garbage container overflowing,Downtown,U119,submitted,2026-05-07T10:47:00,,D001
+R386,water,Flooding near building,South District,U084,in_progress,2026-05-07T13:53:00,,D029
+R387,trash,Trash not collected,Industrial Zone,U065,in_progress,2026-05-04T16:32:00,,D016
+R388,trash,Bad smell from waste area,North District,U075,submitted,2026-05-06T17:25:00,,D021
+R389,water,Flooding near building,East Side,U013,in_progress,2026-05-06T23:23:00,,D034
+R390,electricity,Power outage in neighborhood,Downtown,U016,submitted,2026-05-06T01:27:00,,D002
+R391,water,Water leakage from pipe,West Side,U069,resolved,2026-05-04T23:23:00,57,D039
+R392,electricity,Power outage in neighborhood,North District,U060,submitted,2026-05-03T14:28:00,,D022
+R393,trash,Bad smell from waste area,North District,U067,resolved,2026-05-04T07:51:00,144,D021
+R394,electricity,Electrical sparks near pole,South District,U082,submitted,2026-05-03T02:44:00,,D027
+R395,electricity,Electrical sparks near pole,South District,U094,submitted,2026-05-03T01:27:00,,D027
+R396,electricity,Street light not working,Downtown,U076,submitted,2026-05-02T04:51:00,,D002
+R397,electricity,Street light not working,Downtown,U118,in_progress,2026-05-02T08:16:00,,D002
+R398,water,No water supply,Downtown,U059,in_progress,2026-05-02T02:10:00,,D004
+R399,traffic,Heavy traffic near intersection,Downtown,U055,submitted,2026-05-02T05:07:00,,D003
+R400,road_damage,Damaged sidewalk,Old City,U015,resolved,2026-05-01T16:42:00,225,D010

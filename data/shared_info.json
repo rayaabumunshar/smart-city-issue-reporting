@@ -1,0 +1,22 @@
+{
+  "citizens": [
+    {"citizen_id": "CIT-001", "name": "Ahmed Ahmed", "district": "Ein Sarah"},
+    {"citizen_id": "CIT-002", "name": "Fatima Al-Zahra", "district": "Downtown"},
+    {"citizen_id": "CIT-003", "name": "Omar Omar", "district": "Wad El Haryeh"}
+  ],
+  "reports": [
+    {"report_id": "REP-001", "citizen_id": "CIT-001", "location_id": "LOC-101", "issue_type": "waste", "status": "in_progress"},
+    {"report_id": "REP-002", "citizen_id": "CIT-002", "location_id": "LOC-103", "issue_type": "traffic", "status": "submitted"},
+    {"report_id": "REP-003", "citizen_id": "CIT-003", "location_id": "LOC-102", "issue_type": "lighting", "status": "resolved"}
+  ],
+  "departments": [
+    {"department_id": "DEPT-01", "name": "Sanitation Department"},
+    {"department_id": "DEPT-02", "name": "Traffic Department"},
+    {"department_id": "DEPT-03", "name": "Electricity Department"}
+  ],
+  "locations": [
+    {"location_id": "LOC-101", "name": "Nijmah Street", "district": "Downtown"},
+    {"location_id": "LOC-102", "name": "Ein Sarah park", "district": "Ein Sarah"},
+    {"location_id": "LOC-103", "name": "Main Intersection", "district": "Wad El Haryeh"}
+  ]
+}

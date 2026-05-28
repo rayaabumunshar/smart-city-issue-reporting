@@ -1,0 +1,96 @@
+
+//creating a new report node 
+
+MATCH (u:User {user_id: $user_id})
+MATCH (d:Department {type: $type, area: $area})
+
+CREATE (r:Report {
+    report_id: $report_id,
+    type: $type,
+    area: $area,
+    status: "submitted",
+    response_time: null
+})
+
+CREATE (u)-[:REPORTED]->(r)
+CREATE (d)-[:HANDLES]->(r)
+
+RETURN u, r, d;
+
+//deleting a report
+MATCH (r:Report {report_id: "R001"})
+DETACH DELETE r
+
+//reads all nodes
+match (n) return n
+
+//read all relationships
+MATCH r=()-[]->() RETURN r;
+
+
+
+//in the backend:
+
+def create_report_in_neo4j(session, report_id, user_id, report_type, area):
+    query = """
+    MATCH (u:User {user_id: $user_id})
+    MATCH (d:Department {type: $type, area: $area})
+
+    CREATE (r:Report {
+        report_id: $report_id,
+        type: $type,
+        area: $area,
+        status: "submitted",
+        response_time: null
+    })
+
+    CREATE (u)-[:REPORTED]->(r)
+    CREATE (d)-[:HANDLES]->(r)
+
+    RETURN r
+    """
+
+    result = session.run(
+        query,
+        report_id=report_id,
+        user_id=user_id,
+        type=report_type,
+        area=area
+    )
+
+    return result.single()
+
+
+//show all departments and their workload
+
+MATCH (d:Department)-[:HANDLES]->(r:Report)
+WHERE r.status = "submitted"
+RETURN d.dep_id, d.name, d.area, d.type, count(r) AS reports_to_handle
+ORDER BY reports_to_handle DESC;
+
+//show all the departments and how many waiting_reports and in_progress reports each one has
+
+MATCH (d:Department)-[:HANDLES]->(r:Report)
+WHERE r.status IN ["submitted", "in_progress"]
+RETURN 
+    d.dep_id AS department_id,
+    d.name AS department_name,
+    d.area AS area,
+    d.type AS issue_type,
+    count(r) AS active_reports,
+    sum(CASE WHEN r.status = "submitted" THEN 1 ELSE 0 END) AS waiting_reports,
+    sum(CASE WHEN r.status = "in_progress" THEN 1 ELSE 0 END) AS in_progress_reports
+ORDER BY active_reports DESC;
+
+
+//show total reports for each user
+
+MATCH (u:User)-[:REPORTED]->(r:Report)
+
+RETURN 
+    u.user_id AS user_id,
+    u.username AS username,
+    count(r) AS total_reports
+
+ORDER BY total_reports DESC;
+
